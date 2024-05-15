@@ -111,7 +111,7 @@ export default {
 						method: 'get',
 						headers: {
 							'Accept': 'text/html,application/xhtml+xml,application/xml;',
-							'User-Agent': `${追加UA} cmliu/CF-Workers-SUB ${userAgentHeader}`
+							'User-Agent': `${追加UA} cmliu/CF-Workers-SUB`
 						},
 						signal: controller.signal // 将AbortController的信号量添加到fetch请求中，以便于需要时可以取消请求
 					}).then(response => {
