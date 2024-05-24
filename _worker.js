@@ -52,7 +52,7 @@ export default {
 		let 自建节点 ="";
 		let 订阅链接 ="";
 		for (let x of 重新汇总所有链接) {
-			if (x.toLowerCase().startsWith('http')) {
+			if (x.toLowerCase().startsWith('https')) {
 				订阅链接 += x + '\n';
 			} else {
 				自建节点 += x + '\n';
